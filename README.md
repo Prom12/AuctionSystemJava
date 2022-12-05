@@ -19,4 +19,4 @@ The `JAVA PROJECTS` view allows you to manage your dependencies. More details ca
 
 ## Run
 
-To run code follow java running process although, In "client.java" change path to the location of your file precisely where "all.poilcy" is
+To run code follow java running process although, In "client.java" change path to the location of your file precisely where "all.policy" is
