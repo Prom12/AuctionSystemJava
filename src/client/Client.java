@@ -12,6 +12,8 @@ import shared.UserDetails;
 
 
 public class Client {
+    static String path = "D:\\Extra Learn\\Masters\\Sem 2\\Distributed System\\RMI2\\AuctionRMI\\AuctionSystemJava";
+
     public static UserDetails RegisterUsers(Scanner ScannerInput,String[] userType ){
         System.out.println("Who are you ? \nPlease Type in :");
 
@@ -111,7 +113,7 @@ public class Client {
     }
     public static void main(String [] args) throws RemoteException, NotBoundException{
 
-        System.setProperty("java.security.policy","D:\\Extra Learn\\Masters\\Sem 2\\Distributed System\\RMI2\\RMI\\all.policy");
+        System.setProperty("java.security.policy", path + "\\all.policy");
         if(System.getSecurityManager() == null){
 
             System.setSecurityManager(new RMISecurityManager());
